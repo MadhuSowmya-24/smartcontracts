@@ -1,0 +1,13 @@
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity ^0.7.0;
+contract Operators {
+	uint16 public a = 40;
+	uint16 public b = 37;
+	uint public sum = a + b;
+	uint public diff = a - b;
+	uint public mul = a * b;
+	uint public div = a / b;
+	uint public mod = a % b;
+	
+	
+}
